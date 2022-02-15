@@ -1,0 +1,81 @@
+body {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body a {
+  text-decoration: none;
+}
+
+.container {
+  min-height: 500px;
+  margin-top: 50px;
+}
+.container .header {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.container .option-price {
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.container .option-price ul {
+  list-style-type: none;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  margin-left: 20px;
+  padding: 0;
+}
+.container .option-price ul li {
+  padding: 8px 16px;
+  border-bottom: 1px solid #e6e6e6;
+  width: 150px;
+  text-align: center;
+}
+.container .option-price ul li:last-child {
+  border-bottom: none;
+}
+.container .option-price .dev-plan ul li:first-child {
+  background-color: #ff3333;
+  font-weight: bold;
+}
+.container .option-price .pro-plan ul li:first-child {
+  font-weight: bold;
+  background-color: #008ae6;
+}
+.container .option-price .fre-plan ul li:first-child {
+  background-color: #009933;
+  font-weight: bold;
+}
+.container .option-price .list ul li:nth-child(2) {
+  font-weight: bold;
+  padding: 12px 16px;
+}
+
+.container .option-price .dev-plan ul li button {
+  border: none;
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #ff3333;
+  cursor: pointer;
+}
+.container .option-price .pro-plan ul li button {
+  border: none;
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #008ae6;
+  cursor: pointer;
+}
+.container .option-price .fre-plan ul li button {
+  border: none;
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #009933;
+  cursor: pointer;
+}
