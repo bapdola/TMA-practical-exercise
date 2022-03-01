@@ -1,0 +1,67 @@
+/*Smart phone nhỏ*/
+@media screen and (min-width: 240px) {
+}
+/*Iphone(480 x 640)*/
+@media screen and (min-width: 320px) {
+}
+/*Tablet nhỏ(480 x 640)*/
+@media screen and (min-width: 480px) {
+}
+/*Ipad dọc(768 x 1024)*/
+@media screen and (min-width: 768px) {
+  .cnt-introduce .icon-infor a {
+    display: block;
+  }
+  .section-title::after {
+    width: 89px;
+    top: 3rem;
+  }
+  .cnt-about-main {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+  .cnt-body .cnt-about .cnt-about-text {
+    text-align: initial;
+  }
+  .section {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+  }
+  .cnt-skills-main {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    text-align: initial;
+  }
+  .skills__subtitle {
+    text-align: initial;
+  }
+  .skills__text {
+    text-align: initial;
+    width: 100%;
+    margin-top: 2em;
+  }
+  .cnt-work-img {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 2rem;
+  }
+  .cnt-work-img .work-img img {
+    width: 120em;
+  }
+  .contact-action {
+    width: 360px;
+  }
+  .form-contact {
+    justify-items: center;
+  }
+}
+/*Ipad ngang(1024 x 768)*/
+@media screen and (min-width: 1024px) {
+  .body {
+    width: 800px;
+    height: 64px;
+  }
+  .footer {
+    width: 100%;
+  }
+}
